@@ -1,0 +1,14 @@
+package dton
+
+modules = Main
+
+main = Main
+
+depends = base
+        , contrib
+        , elab-util
+        , sop
+
+executable = dton
+
+sourcedir = "src"
